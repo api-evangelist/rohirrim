@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.rohirrim.ai/
+url: https://trust.rohirrim.ai/
+platform: Vanta
+status: live
+# The trust center resolves (HTTP 200) and is hosted on Vanta's Trust Center
+# product. Its certification list is rendered client-side (SPA) and could not be
+# verified server-side, so no named certifications are asserted here. Do not add
+# specific certs (SOC 2 / ISO 27001 / etc.) without verifying them against the
+# rendered page. Absence of a verified cert list is honest, expected data.
+certifications: []
+evidence:
+- source: https://trust.rohirrim.ai/
+  keywords: [vanta, trust center]
+  note: Vanta-hosted trust center, page returns 200; certification list is JS-rendered and not server-verifiable.
