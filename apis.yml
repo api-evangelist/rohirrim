@@ -9,6 +9,17 @@ description: 'Rohirrim is an AI-native Unified Acquisition Platform that automat
   Fortune 500 firms, and healthcare organizations, and is backed by Bessemer Venture
   Partners and Insight Partners. Rohirrim publishes no public developer API surface
   today; this profile captures its public web, content, and security-posture footprint.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
